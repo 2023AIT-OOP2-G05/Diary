@@ -3,14 +3,15 @@ from diaries.TakanoDiary import TakanoDiary
 from diaries.TsuzukiDiary import TsuzukiDiary
 from diaries.ImaiDiary import ImaiDiary
 from diaries.SugiyamaDiary import SugiyamaDiary
-
+from diaries.SakakibaraDiary import SakakibaraDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(),
            TakanoDiary(),
            TsuzukiDiary(),
            ImaiDiary(), 
-           SugiyamaDiary() ]
+           SugiyamaDiary(),
+           SakakibaraDiary() ]
 
 for d in diaries:
     print("---------------------------------")
