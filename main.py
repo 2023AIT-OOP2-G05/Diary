@@ -11,7 +11,7 @@ diaries = [DiarySample(),
            TsuzukiDiary(),
            ImaiDiary(), 
            SugiyamaDiary(),
-           SakakibaraDiary() ]
+           SakakibaraDiary()  ]
 
 for d in diaries:
     print("---------------------------------")
