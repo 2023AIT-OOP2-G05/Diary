@@ -7,6 +7,5 @@ class YamaguchiDiary(AbstractDiary):
         return """今日は良い休息と言えるような1日であったと思う。
         来週も健康に気をつけながら頑張ろうと思う。"""
 
-
-def get_author(self):
-    return "Yamaguchi"
+    def get_author(self):
+        return "Eiji Yamaguchi"
