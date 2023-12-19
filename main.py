@@ -6,6 +6,7 @@ from diaries.SugiyamaDiary import SugiyamaDiary
 from diaries.SakakibaraDiary import SakakibaraDiary
 from diaries.YamaguchiDiary import YamaguchiDiary
 from diaries.IzawaDiary import IzawaDiary
+from diaries.tagawaDiary import tagawaDiary
 
 
 # ↓のリストには、メンバーの各日記が格納されます。
@@ -16,6 +17,7 @@ diaries = [DiarySample(),
            SugiyamaDiary(),
            SakakibaraDiary(),
            YamaguchiDiary(),
+           tagawaDiary(),
            IzawaDiary()]
 
 
