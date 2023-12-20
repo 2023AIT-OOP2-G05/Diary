@@ -1,5 +1,5 @@
 from diaries.AbstractDiary import AbstractDiary
-class SugiyamaDiary(AbstractDiary):
+class tagawaDiary(AbstractDiary):
     def get_date(self):
         return "2023-12-20"
     def get_summary(self):

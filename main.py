@@ -16,8 +16,8 @@ diaries = [DiarySample(),
            SugiyamaDiary(),
            SakakibaraDiary(),
            YamaguchiDiary(),
-           tagawaDiary(),
-           IzawaDiary()]
+           IzawaDiary(),
+           tagawaDiary()]
 
 
 
